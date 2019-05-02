@@ -3,7 +3,7 @@
 ```
 #定义一个upstream块
 upstream nginxtest{
-    server www.back.com;
+    server www.back.com:3152;
 }
 server {
     #监听80端口即当访问www.back.com的时候不需要使用端口
